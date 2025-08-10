@@ -27,3 +27,4 @@ abstract class DogEntity implements DogInterface{
          $this->sexo = $sexo;
     }
 }
+//incluir dos servicios y dos repositorios
