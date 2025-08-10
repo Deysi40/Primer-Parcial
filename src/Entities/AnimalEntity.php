@@ -33,4 +33,6 @@ abstract class AnimalEntity implements AnimalInterface{
 
    
 }
-// incluir dos repositorios y dos servicios
+
+
+

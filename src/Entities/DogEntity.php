@@ -26,4 +26,7 @@ abstract class DogEntity implements DogInterface{
     public function setSexo(String $sexo) : void {
          $this->sexo = $sexo;
     }
+
 }
+//incluir dos servicios y dos repositorios
+
