@@ -3,30 +3,30 @@
 namespace App\Entities;
 use App\Entities\Interfaces\DogInterface;
 
-abstract class DogEntity implements DogInterface{
-    protected int $id;
-    protected string $color;
-    protected string $sexo;
+class DogEntity implements DogInterface{
+    private bool $entrenado;
+    private string $color;
+    private string $sexo;
 
-    public function getId() : int {
-        return $this->id;
+    public function isEntrenado() : bool {
+        return $this->entrenado;
     }
-    public function setId(int $id) : void {
-         $this->id = $id;
+    public function entrenado(bool $isEntrenado) : void {
+        $this->entrenado = $isEntrenado;
     }
-     public function getColor() : string {
-        return $this->color;
-    }
-    public function setColor(string $color) : void {
+    public function setColor(string $color): void{
         $this->color = $color;
     }
-    public function getSexo() : String {
+    public function getColor() : string {
+        return $this->color;
+    }
+    public function setSexo(string $sexo): void{
+        $this->sexo = $sexo;
+    }
+    public function getSexo() : string {
         return $this->sexo;
     }
-    public function setSexo(String $sexo) : void {
-         $this->sexo = $sexo;
-    }
+
 
 }
-//incluir dos servicios y dos repositorios
 
