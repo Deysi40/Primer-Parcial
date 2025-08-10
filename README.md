@@ -25,7 +25,7 @@ src/
 │   └── AnimalService.php               # Servicio que usa las clases/interfaces
 ├── LICENSE
 └── README.md
-
+```
 # Instalación y uso  
 1. Clona el repositorio:  
    git clone https://github.com/Deysi40/Primer-Parcial.git  
