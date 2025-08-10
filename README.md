@@ -1,6 +1,6 @@
 # Sistema de Gestión de Animales - PHP
 Descripción  
-Este es un prototipo de software desarrollado como parte de una evaluación técnica. El objetivo   principal es demostrar el uso correcto de conceptos de programación orientada a objetos en PHP,   aplicando:  
+Este es un prototipo de software desarrollado como parte de una evaluación,   aplicando:  
 
 Clase abstracta  
 Dos interfaces  
